@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do | holiday, supplies |
       words = holiday.to_s
       words = words.split()
+      
       words.collect do | word |
         word.capitalize!
       end
