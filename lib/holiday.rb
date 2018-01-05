@@ -70,11 +70,11 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do | season |
     seasonForm = season.to_s.capitalize!
     puts "#{seasonForm}:"
-    season.each do | holiday, supplies |
-      puts holiday.to_s
-      supplies.each do | supply |
-        puts supply
-      end
+    # season.each do | holiday, supplies |
+    #   puts holiday.to_s
+    #   supplies.each do | supply |
+    #     puts supply
+    #   end
     end
   end
 
