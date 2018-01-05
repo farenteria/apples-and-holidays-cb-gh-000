@@ -81,7 +81,11 @@ def all_supplies_in_holidays(holiday_hash)
       i = 0
       holForm = ""
       while i < words.length
-        holForm += words[i] += " "
+        if i + 1 != words.length
+          holForm += words[i] += " "
+        else
+          
+        end
         i += 1
       end
 
