@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
 
       words.join
-      puts "  #{holiday.to_s}"
+      puts "  #{words}"
     #   supplies.each do | supply |
     #     puts supply
     #   end
