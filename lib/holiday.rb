@@ -81,9 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
       words.join()
       words += supplies
 
-      # supplies.each do | supply |
-      #   puts supply
-      # end
+      allSupp = supplies.join(",")
     end
   end
 end
