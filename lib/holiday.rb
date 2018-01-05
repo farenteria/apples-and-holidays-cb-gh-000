@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.each do | season |
-    puts season
+    puts season.to_s
     season.each do | holiday, supplies |
       puts holiday
       supplies.each do | supply |
