@@ -103,8 +103,10 @@ def all_holidays_with_bbq(holiday_hash)
   arr = []
   holiday_hash.each do | season, holidays |
     holidays.each do | holiday, supplies |
-      supplies.select do | supply |
-        supply == "BBQ"
+      supplies.each do | supply |
+        if supply == "BBQ"
+          arr.push(supply)
+        end
       end
     end
   end
