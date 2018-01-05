@@ -70,9 +70,10 @@ def all_supplies_in_holidays(holiday_hash)
 
   holiday_hash.each do | season |
     season.each do | holiday, supplies |
-      supplies.each do | supply |
-        allSupp.push(supply)
-      end
+      # supplies.each do | supply |
+      #   allSupp.push(supply)
+      # end
+      allSupp.push(supplies)
     end
   end
 
